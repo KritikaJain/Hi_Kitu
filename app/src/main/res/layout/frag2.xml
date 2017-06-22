@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:textAlignment="center"
+    >
+
+    <TextView
+        android:id="@+id/choice_noofplayers"
+        android:textAlignment="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:id="@+id/choice_guns"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/choice_mode"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="30dp"/>
+
+</LinearLayout>

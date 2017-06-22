@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_singleton_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.hi_kitu.Singleton_Activity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="string text"
+        android:id="@+id/String_text"
+        android:layout_marginLeft="125dp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Json_text"
+        android:text="Json Text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="Json parsing"
+        android:layout_marginTop="20dp"
+        android:id="@+id/json_parsing"
+        />
+
+</LinearLayout>

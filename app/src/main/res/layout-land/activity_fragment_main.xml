@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/frag1"
+        class="com.example.dell.hi_kitu.OptionsFragment"
+        android:layout_weight="3">
+    </fragment>
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/frag2"
+        class="com.example.dell.hi_kitu.ChoiceFragment"></fragment>
+
+
+</LinearLayout>
