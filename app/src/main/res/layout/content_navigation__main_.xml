@@ -13,11 +13,11 @@
     tools:context="com.example.dell.hi_kitu.Navigation_Main_Activity"
     tools:showIn="@layout/app_bar_navigation__main_">
 
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_staggered_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical" />
-
 
 </RelativeLayout>

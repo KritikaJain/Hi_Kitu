@@ -3,7 +3,10 @@
     <string name="fragment_1">Fragment 1</string>
     <string name="fragment_2">Fragment 2</string>
     <string name="title_activity_navigation__main_">Navigation_Main_Activity</string>
-
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
