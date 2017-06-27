@@ -26,17 +26,23 @@
         <activity android:name=".RecyclePage" />
         <activity android:name=".VolleyPage" />
         <activity android:name=".Json_Parsing" />
-        <activity android:name=".Fragment_Main_Activity" />
-        <activity android:name=".Dual_Display_Fragment" />
+        <activity android:name=".Fragment_Main_Activity" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity android:name=".Dual_Display_Fragment" >
+
+            </activity>
+
         <activity
             android:name=".Navigation_Main_Activity"
             android:label="@string/title_activity_navigation__main_"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".test" />
         <activity android:name=".SignupPage" />
